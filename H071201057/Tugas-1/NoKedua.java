@@ -12,7 +12,9 @@ public class NoKedua {
         scan.close();
         
         System.out.print("Jam:Menit:Detik = ");
-        System.out.println(jam + ":" + menit + ":" + detik);
+        System.out.printf("%02d:", jam);
+        System.out.printf("%02d:", menit);
+        System.out.printf("%02d", detik);
 
     }
 }
